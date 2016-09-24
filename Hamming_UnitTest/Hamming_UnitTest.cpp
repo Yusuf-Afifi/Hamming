@@ -14,6 +14,7 @@ namespace Hamming_UnitTest
 	{
 		TEST_CLASS_INITIALIZE(methodName)
 		{
+			// we can save this seed to a file if we ever want to reproduce the exam same random test cases
 			srand(time(NULL) % UINT_MAX); //to prevent warning and possible data loss
 		}
 	private:
