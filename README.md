@@ -1,15 +1,18 @@
 # Hamming
 Hamming distance library and unit testing procedures
 
-##Usage **Hamming.exe** command line tool can be called with 2 strings containing the 2 sequences that we want to calculate the hamming distance for.
+##Usage 
+**Hamming.exe** command line tool can be called with 2 strings containing the 2 sequences that we want to calculate the hamming distance for.
 
 ### optional param : -binary
 
 Specifies that the binary distance is calculated. 
 
 #### For example:
-Hamming.exe -binary "AB" "AA" will output 2. Because 
+Hamming.exe -binary "AB" "AA" will output 2. Because
+
 "AB" -> 01000001 010000**10**
+
 "AA" -> 01000001 010000**01**
 
 While:
